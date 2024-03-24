@@ -1,0 +1,25 @@
+.headerDiv{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding-right: 20px;
+    color: white;
+    align-items: center;
+}
+.time,.wifi,.day,.battery{
+    background-color: #363E4B;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media (max-width:400px) {
+    .headerDiv{
+    gap: 10px;
+    padding-right: 10px;
+}
+.time,.wifi,.day,.battery{
+    padding: 5px;
+    border-radius: 0px;
+    background-color: transparent;
+}
+}

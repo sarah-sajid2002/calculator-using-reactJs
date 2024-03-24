@@ -1,0 +1,25 @@
+.CalcButtons {
+  background-color: #364252;
+}
+
+.simpleButton {
+  height: 60px;
+  font-weight: 600;
+  color: rgb(202, 202, 202);
+  display: flex;
+  border-width: 2px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+  border-color: #2f3b4b;
+  background-color: #364252;
+}
+.CYellowButton{
+    color: yellow;
+}
+.simpleButton:hover {
+  background-color: #8b8c8d;
+  color: black;
+  transform: scale(1.1); /* Zoom effect on hover */
+}

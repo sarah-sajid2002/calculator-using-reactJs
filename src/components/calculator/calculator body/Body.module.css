@@ -1,0 +1,26 @@
+.bodyDiv{
+    background-color: #374353;
+    width: 50%;
+    border-radius: 10px;
+    padding-top: 15px ;
+    overflow: hidden;
+}
+.mainButtonDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Align CalcButtons and sinButtons at the start and end of the container */
+  align-items: flex-start; /* Align items at the start vertically */
+}
+
+@media (max-width:1000px) {
+    .bodyDiv{
+    width: 80%;
+}
+}
+
+@media (max-width:600px) {
+    .bodyDiv{
+    width: 90%;
+    padding-top: 25px;
+}
+}

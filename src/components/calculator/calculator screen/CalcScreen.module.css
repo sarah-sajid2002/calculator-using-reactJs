@@ -1,0 +1,24 @@
+.CalcScreen{
+    width: 100%;
+    background-color:#505C68;
+    height: 120px;
+}
+.calculaionScreen,.answerScreen{
+    padding: 0px 40px;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    height: 40px;
+}
+.calculaionScreen{
+    color:  #89919C;
+    font-size: 20px;
+    align-items: end;
+    margin-bottom: 20px;
+}
+.answerScreen{
+    color: #FCFFFF;
+    align-items: start;
+    font-size: 30px;
+    margin-bottom: 20px;
+}

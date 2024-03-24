@@ -1,0 +1,32 @@
+/* Style for the additional buttons */
+.sinButtons {
+  background-color: #333a42;
+
+
+}
+
+.sinButtonsButton {
+  height: 60px;
+  font-weight: 600;
+  color: rgb(202, 202, 202);
+  display: flex;
+  border-width: 2px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+  border-color: #1c2127;
+  background-color: #333a42;
+ 
+}
+.sinButtonsButton:hover {
+  background-color: #474747;
+  color: rgb(187, 187, 187);
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+@media (max-width:300px) {
+    .sinButtonsButton{
+        font-weight: 100;
+        font-size: 12px;
+    }
+}
