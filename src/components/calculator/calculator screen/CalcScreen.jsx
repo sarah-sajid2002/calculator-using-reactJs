@@ -1,10 +1,10 @@
 import styles from "./CalcScreen.module.css";
 
-function CalcScreen() {
+function CalcScreen({ calcScreenVal, ansScreenVal }) {
   return (
     <div className={styles.CalcScreen}>
-      <div className={styles.calculaionScreen}>calculation screen</div>
-      <div className={styles.answerScreen}>answer screen</div>
+      <div className={styles.calculaionScreen}>{calcScreenVal}</div>
+      <div className={styles.answerScreen}>{ansScreenVal}</div>
     </div>
   );
 }

@@ -3,7 +3,9 @@ import Calculator from "./screen/calculator/Calculator";
 function App() {
   return (
     <>
-      <Calculator />
+      <div className="calculator">
+        <Calculator />
+      </div>
     </>
   );
 }

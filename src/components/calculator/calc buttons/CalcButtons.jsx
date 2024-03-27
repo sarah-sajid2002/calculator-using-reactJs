@@ -1,9 +1,9 @@
 import styles from "./CalcButtons.module.css";
 
-function CalcButtons() {
+function CalcButtons({ handleOnClick }) {
   let buttonsData = [
-    ["CE", "C", "X", "%"],
-    ["7", "8", "9", "X"],
+    ["CE", "C", "**", "/"],
+    ["7", "8", "9", "*"],
     ["4", "5", "6", "-"],
     ["1", "2", "3", "+"],
     [".", "0", "="],
@@ -15,6 +15,7 @@ function CalcButtons() {
         <div key={indexI} className="row">
           {row.map((button, indexJ) => (
             <button
+              onClick={(e) => handleOnClick(button, e)}
               key={`${indexI}-${indexJ}`}
               className={`${styles.simpleButton} ${getButtonClass(
                 button

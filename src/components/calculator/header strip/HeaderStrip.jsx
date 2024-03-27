@@ -33,6 +33,7 @@ function HeaderStrip() {
       return AmPm;
     }
   }
+
   return (
     <>
       <div className={styles.headerDiv}>
